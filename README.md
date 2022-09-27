@@ -1,3 +1,4 @@
+<html>
 # Juego del Ahorcado ☠
 
 Bienvenidos al juego del ahorcado! Este juego ha sido creado como cumplimiento al desafío No. 2 del bootcamp de desarrollo frontend impartido por Alura Latam, auspiciado por Oracle ONE.
@@ -26,3 +27,4 @@ En caso que el jugador no adivine la palabra y acumule los fallos necesarios par
 (https://raw.githubusercontent.com/apalplata/juegoahorcado.github.io-/main/assets/portada-ahorcado5.PNG)
 
 Éste ha sido un desafío muy divertido donde he podido aplicar los conocimientos adquiridos hasta el momento y del cual me siento muy orgullosa de haber completado.
+     </html>
