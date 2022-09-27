@@ -7,18 +7,18 @@ Para el desarrollo de este desafío se ha empleado Javascript como lenguaje prin
 
 ### Funcionamiento
 Al cargar la página se mostrará la pantalla con la horca y una palabra seleccionada al azar de una lista de palabras previamente alimentada en el código.
-
+https://github.com/apalplata/juegoahorcado.github.io-/tree/main/assets/portada-ahorcado1.png
 
 Una vez el jugador inicia a oprimir teclas para adivinar las letras que conforman la palabra a descubrir, si la palabra contiene dicha letra se mostrará dentro del espacio con guiones bajo la horca. En caso contrario se mostrará en una lista de letras erradas ubicada en la parte superior derecha de la zona de juego.
-![](https://drive.google.com/file/d/1ehjDRARIqtt67o5J_9HUjM_dp_kh8jAl/view?usp=sharing)
+https://github.com/apalplata/juegoahorcado.github.io-/tree/main/assets/portada-ahorcado2.png
 
 Si el jugador oprime una letra que ya ha escogido antes, se mostrará una alerta informando este suceso, la cual saldrá del inferior de la página y permanecerá visible por 2 segundos.
-![](https://drive.google.com/file/d/1eczP-CSbaebKpwqoXmZ1qGRTg0vvPsnO/view?usp=sharing)
+https://github.com/apalplata/juegoahorcado.github.io-/tree/main/assets/portada-ahorcado3.png
 
 El juego puede culminar de dos formas. La primera, si el jugador adivina la palabra y la completa oprimiendo las letras faltantes para que se muestre en su totalidad, saltará un mensaje emergente felicitándole por haber ganado y mostrando un botón que permite reiniciar el juego y adivinar una nueva palabra.
-![](https://drive.google.com/file/d/1ekmlfYphgEyrPLASlqsnu5i9NoEhF6n_/view?usp=sharing)
+https://github.com/apalplata/juegoahorcado.github.io-/tree/main/assets/portada-ahorcado4.png
 
 En caso que el jugador no adivine la palabra y acumule los fallos necesarios para que el muñeco ahorcado se muestre en su totalidad, saltará un mensaje emergente anunciando que ha perdido la partida, mostrando cuál era la palabra a adivinar e igualmente muestra el botón de reiniciar para intentar con una nueva palabra.
-![](https://drive.google.com/file/d/1eTaSo9O6U5PTW0AEHmo_cAxTIMnQSr9V/view?usp=sharing)
+https://github.com/apalplata/juegoahorcado.github.io-/tree/main/assets/portada-ahorcado5.png
 
 Éste ha sido un desafío muy divertido donde he podido aplicar los conocimientos adquiridos hasta el momento y del cual me siento muy orgullosa de haber completado.
