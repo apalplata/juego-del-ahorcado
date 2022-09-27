@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Special Elite', cursive;
+}
+
+body{
+    background-color: #2C3333;
+    color: #E7F6F2;
+    overflow: hidden;
+    background-image: url(assets/Ahorcado.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+.subtitulo {
+    color: #E7F6F2;
+    font-size: 32px;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.frase {
+    color: #E7F6F2;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contenedor-juego{
+    padding: 20px 30px;
+    position: relative;
+    margin: auto;
+    height: 450px;
+    width: 450px;
+}
+
+.contenedor-figura{
+    fill: transparent;
+    stroke: #E7F6F2;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
+
+.pieza-figura{
+    display: none;
+}
+
+.contenedor-letra-errada {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.contenedor-letra-errada p {
+    margin: 0 0 5px;
+}
+
+.contenedor-letra-errada span {
+    font-size: 24px;
+}
+
+.palabra-secreta {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.letra {
+    border-bottom: 3px solid #E7F6F2;
+    display: inline-flex;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4px;
+    height: 50px;
+    width: 20px;
+}
+
+.contenedor-mensaje {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensaje {
+    background: #94B49F;
+    border-radius: 20px;
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+}
+
+.mensaje button {
+    cursor: pointer;
+    background-color: #395B64;
+    color: #E7F6F2;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.mensaje button:active {
+    transform: scale(0.98);
+}
+
+.mensaje button:focus {
+    outline: 0;
+}
+
+.contenedor-letra-repetida {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+    position: absolute;
+    bottom: -50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contenedor-letra-repetida p {
+    margin: 0;
+}
+
+.contenedor-letra-repetida.show {
+    transform: translateY(-50px);
+}
+
+.creditos {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.creditos a{
+    text-decoration: none;
+}
+
+.creditos a:hover{
+    text-decoration: underline;
+    font-size: 18px;
+    transition: all 300ms;
+}
+
+.creditos a:visited{
+    color: #E7F6F2;
+}
+
+@media (max-width: 425px) {
+    .contenedor-cabecera {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    .frase {
+        text-align: center;
+    }
+    
+    .contenedor-letra-repetida {
+        bottom: -195px;
+    }
+
+    .contenedor-letra-errada {
+        right: 100px;
+    }
+}

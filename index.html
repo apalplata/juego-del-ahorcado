@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego del Ahorcado</title>
+</head>
+<body>
+    <h2 class="subtitulo">Juego del Ahorcado</h2>
+    <p class="frase">Encuentra la palabra secreta - Ingresa una letra</p>
+    
+    <div class="contenedor-juego">
+        <svg height="300" width="300" class="contenedor-figura">
+            <line x1="150" y1="60" x2="150" y2="20"/> <!-- cuerda horca -->
+            <line x1="60" y1="20" x2="150" y2="20"/> <!-- soporte cuerda horca -->
+            <line x1="60" y1="20" x2="60" y2="280"/> <!-- poste horca -->
+            <line x1="30" y1="280" x2="90" y2="280"/> <!-- base horca -->
+            <circle class="pieza-figura" cx="150" cy="85" r="25" /> <!-- cabeza -->
+            <line class="pieza-figura" x1="150" y1="110" x2="150" y2="170" /> <!-- cuerpo muñeco -->
+            <line class="pieza-figura" x1="150" y1="130" x2="110" y2="110" /> <!-- brazo izquierdo -->
+            <line class="pieza-figura" x1="150" y1="130" x2="190" y2="110" /> <!-- brazo derecho -->
+            <line class="pieza-figura" x1="150" y1="170" x2="120" y2="220" /> <!-- pierna izquierda -->
+            <line class="pieza-figura" x1="150" y1="170" x2="190" y2="220" /> <!-- pierna derecha -->
+        </svg>
+    
+        <div class="contenedor-letra-errada">
+        <div id="letras-erradas"></div>
+    </div>
+    
+    <div class="palabra-secreta" id="palabra-secreta"></div>
+    </div>
+
+    <div class="contenedor-mensaje" id="contenedor-mensaje">
+        <div class="mensaje">
+            <h2 id="mensaje-final"></h2>
+            <button id="boton-reiniciar">Jugar de nuevo</button>
+        </div>
+    </div>
+    
+    <div class="contenedor-letra-repetida" id="contenedor-letra-repetida">
+        <p>Ya has ingresado esa letra</p>
+    </div>
+    
+    <div class="creditos">
+        <p>Imágenes: <a href="https://www.freepik.es/" target="_blank">Freepik</a></p>
+        <p>&copy Angélica Palencia | 2022</p>
+    </div>
+    
+    <script src="ahorcado.js"></script>
+
+</body>
+</html>
