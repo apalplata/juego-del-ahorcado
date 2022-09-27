@@ -8,11 +8,11 @@ Para el desarrollo de este desafío se ha empleado Javascript como lenguaje prin
 ### Funcionamiento
 Al cargar la página se mostrará la pantalla con la horca y una palabra seleccionada al azar de una lista de palabras previamente alimentada en el código.
 ![Imagen ahorcado 1]
-(https://raw.githubusercontent.com/apalplata/juegoahorcado.github.io-/main/assets/portada-ahorcado1.PNG)
+(https://raw.githubusercontent.com/apalplata/juegoahorcado.github.io-/main/assets/portada-ahorcado1.png)
 
 Una vez el jugador inicia a oprimir teclas para adivinar las letras que conforman la palabra a descubrir, si la palabra contiene dicha letra se mostrará dentro del espacio con guiones bajo la horca. En caso contrario se mostrará en una lista de letras erradas ubicada en la parte superior derecha de la zona de juego.
 ![Imagen ahorcado 2]
-(https://raw.githubusercontent.com/apalplata/juegoahorcado.github.io-/main/assets/portada-ahorcado2.PNG)
+(https://raw.githubusercontent.com/apalplata/juegoahorcado.github.io-/main/assets/portada-ahorcado2.png)
 
 Si el jugador oprime una letra que ya ha escogido antes, se mostrará una alerta informando este suceso, la cual saldrá del inferior de la página y permanecerá visible por 2 segundos.
 ![Imagen ahorcado 3]
