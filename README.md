@@ -1,4 +1,3 @@
-<html>
 # Juego del Ahorcado ☠
 
 Bienvenidos al juego del ahorcado! Este juego ha sido creado como cumplimiento al desafío No. 2 del bootcamp de desarrollo frontend impartido por Alura Latam, auspiciado por Oracle ONE.
@@ -8,7 +7,7 @@ Para el desarrollo de este desafío se ha empleado Javascript como lenguaje prin
 
 ### Funcionamiento
 Al cargar la página se mostrará la pantalla con la horca y una palabra seleccionada al azar de una lista de palabras previamente alimentada en el código.
-<img src="https://github.com/apalplata/juego-del-ahorcado/blob/main/assets/portada-ahorcado1.PNG" width="200")
+<img src="assets/portada-ahorcado1.PNG" width="200">
 
 Una vez el jugador inicia a oprimir teclas para adivinar las letras que conforman la palabra a descubrir, si la palabra contiene dicha letra se mostrará dentro del espacio con guiones bajo la horca. En caso contrario se mostrará en una lista de letras erradas ubicada en la parte superior derecha de la zona de juego.
 ![Imagen ahorcado 2]
@@ -27,4 +26,3 @@ En caso que el jugador no adivine la palabra y acumule los fallos necesarios par
 (https://raw.githubusercontent.com/apalplata/juegoahorcado.github.io-/main/assets/portada-ahorcado5.PNG)
 
 Éste ha sido un desafío muy divertido donde he podido aplicar los conocimientos adquiridos hasta el momento y del cual me siento muy orgullosa de haber completado.
-     </html>
